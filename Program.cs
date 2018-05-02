@@ -107,11 +107,11 @@ namespace WebcorLessonsLearnedAppWebConsole
             LessonsLearnedEmail email = new LessonsLearnedEmail(LessonsLearnedType.Review, item, "Reviewer Comment");
 
             email.Subject = "Email Subject";
-            email.To = "admin@rjcgraham.onmicrosoft.com";
-            email.To = "admin@rjcgraham.onmicrosoft.com";
-            email.From = "admin@rjcgraham.onmicrosoft.com";
-            email.Bcc = "admin@rjcgraham.onmicrosoft.com";
-            email.Bcc = "admin@rjcgraham.onmicrosoft.com";
+            email.To = "admin@xxx.onmicrosoft.com";
+            email.To = "admin@xxx.onmicrosoft.com";
+            email.From = "admin@xxx.onmicrosoft.com";
+            email.Bcc = "admin@xxx.onmicrosoft.com";
+            email.Bcc = "admin@xxx.onmicrosoft.com";
 
             HtmlString emailString = email.ToHtmlString();
             try
